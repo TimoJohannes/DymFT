@@ -20,3 +20,4 @@
 |13    | Status LED   |
 |14    | Display REG SEL    |
 |15    | Display Enable    |
+|16    | Nullswitch Head    |
