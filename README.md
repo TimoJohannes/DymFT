@@ -2,22 +2,28 @@
 
 ## Teensy Pins
 
-|Pin|Func|
-|------|------|
-|0     | /    |
-|1     | /    |
-|2     | Feed sensor    |
-|3     | Lift Servo   |
-|4     | Feeder Step    |
-|5     | Feeder Dir   |
-|6     | Feeder Enable    |
-|7     | Head Step    |
-|8     | Head Dir    |
-|9     | Head Enable    |
-|10    | Cutting Servo    |
-|11    | Keyboard CLK    |
-|12    | Keyboard DATA    |
-|13    | Status LED   |
-|14    | Display REG SEL    |
-|15    | Display Enable    |
-|16    | Nullswitch Head    |
+|Pin   |Func                |Done|
+|------|--------------------|----|
+|0     | /                  |/   |
+|1     | /                  |/   |
+|2     | Feed sensor        |y   |
+|3     | Stamping Solenoid  |y   |
+|4     | Feeder Step        |y   |
+|5     | Feeder Dir         |y   |
+|6     | Feeder Enable      |y   |
+|7     | Head Step          |y   |
+|8     | Head Dir           |y   |
+|9     | Head Enable        |y   |
+|10    | Cut Servo pwm      |y   |
+|11    | Keyboard CLK       |y   |
+|12    | Keyboard DATA      |y   |
+|13    | Status LED         |/   |
+|a14   | Sound?             |/   |
+|14    | Nullswitch Head    |y   |
+|15    | cut servo enable   |y   | 
+|16    | Display REG SEL    |y   |
+|17    | Display Enable     |y   |
+|18    | Display D1         |y   |
+|19    | Display D2         |y   |
+|20    | Display D3         |y   |
+|21    | Display D4         |y   |
