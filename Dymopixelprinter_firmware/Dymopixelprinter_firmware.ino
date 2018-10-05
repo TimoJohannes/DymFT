@@ -31,8 +31,8 @@
 */
 
 #include <PS2Keyboard.h>
-const int DataPin = 14;
-const int IRQpin =  15;
+const int DataPin = 12;
+const int IRQpin =  11;
 PS2Keyboard keyboard;
 
 #include <LiquidCrystal.h>
