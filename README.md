@@ -6,7 +6,7 @@ Firmware for the super funky dymFT, a needleprinter for dymo Labels. It's made f
 
 ## fonts
 
-As font we are using bitmap fonts. The code is inspired by the adafruitGFX library. Most fonts in use, the so called UNSCII fonts are taken from [this source](http://pelulamu.net/unscii/) and were transcoded to compatible bitmap fonts using the Adafruit font converter. Due to the low resolution of the y-Axis (maximum 10 pixel per row) only few fonts are still readable. 
+As font we are using bitmap fonts. The code is inspired by the adafruitGFX library. Most fonts in use, the so called UNSCII fonts are taken from [this source](http://pelulamu.net/unscii/) and were transcoded to compatible bitmap fonts using the Adafruit font converter. Due to the low resolution of the y-Axis (maximum 10 pixel per column) only few fonts are still readable. 
 
 
 ## special keys
@@ -31,28 +31,28 @@ As font we are using bitmap fonts. The code is inspired by the adafruitGFX libra
 
 ## Teensy Pins
 
-|Pin   |Function            |Done|
-|------|--------------------|----|
-|0     | /                  |/   |
-|1     | /                  |/   |
-|2     | Label detect       |y   |
-|3     | Stamping Solenoid  |y   |
-|4     | Label Enable       |y   |
-|5     | Label Step         |y   |
-|6     | Label Dir          |y   |
-|7     | Head Enable        |y   |
-|8     | Head Step          |y   |
-|9     | Head Dir           |y   |
-|10    | Cut servo pwm      |y   |
-|11    | Keyboard CLK       |y   |
-|12    | Keyboard DATA      |y   |
-|13    | Status LED         |/   |
-|a14   | Sound              |y   |
-|14    | Head stop          |y   |
-|15    | cut servo enable   |y   | 
-|16    | Display REG SEL    |y   |
-|17    | Display Enable     |y   |
-|18    | Display D1         |y   |
-|19    | Display D2         |y   |
-|20    | Display D3         |y   |
-|21    | Display D4         |y   |
+|Pin   |Function            |
+|------|--------------------|
+|0     | /                  |
+|1     | /                  |
+|2     | Label detect       |
+|3     | Stamping Solenoid  |
+|4     | Label Enable       |
+|5     | Label Step         |
+|6     | Label Dir          |
+|7     | Head Enable        |
+|8     | Head Step          |
+|9     | Head Dir           |
+|10    | Cut servo pwm      |
+|11    | Keyboard CLK       |
+|12    | Keyboard DATA      |
+|13    | Status LED         |
+|a14   | Sound              |
+|14    | Head stop          |
+|15    | cut servo enable   | 
+|16    | Display REG SEL    |
+|17    | Display Enable     |
+|18    | Display D1         |
+|19    | Display D2         |
+|20    | Display D3         |
+|21    | Display D4         |
