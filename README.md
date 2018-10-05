@@ -1,12 +1,12 @@
 # Dymopixelprinter
-Firmware for the super funky dymFT, a needleprinter for dymo Labels. It's made from printer and CD-drive junk, an old PS2 Keyboard and a 16x2 character Display. 
+Firmware for the super funky dymFT, a needleprinter for dymo labels. It's made from printer and CD-drive junk, an old PS2 keyboard and a 16x2 character display. 
 
 
 ![the printer](https://github.com/TimoJohannes/Dymopixelprinter/blob/master/img/dymFT_01.jpg?raw=true)
 
 ## fonts
 
-As fonts we are using bitmap fonts. The code is inspired by the adafruitGFX library. Most fonts in use, the so called UNSCII fonts are taken from [this source](http://pelulamu.net/unscii/) and were transcoded to compatible bitmap fonts using the Adafruit font converter. Due to the low resolution of the y-Axis (maximum 10 pixel per column) only few fonts remain still readable when convertet. 
+As fonts we are using bitmap fonts. The code is inspired by the AdafruitGFX library. Most fonts in use, the so called UNSCII fonts are taken from [this source](http://pelulamu.net/unscii/) and were transcoded to compatible bitmap fonts using the Adafruit font converter. Due to the low resolution of the printers y-Axis (maximum 10 pixel per column) only few fonts remain still readable when convertet. Nevertheless all the UNSCII fonts are looking nice because they were made for low resolution display.
 
 
 ## special keys
