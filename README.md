@@ -20,7 +20,11 @@ Firmware for the super funky dymFT, a needleprinter for dymo Labels. It's made f
 |	PG_DOWN	|	move Label	|
 |arrow keys	|	move cursor	|
 
-![the printer] (https://github.com/TimoJohannes/Dymopixelprinter/blob/master/img/dymFT_01.jpg)
+
+
+
+
+![the printer] (https://github.com/TimoJohannes/Dymopixelprinter/blob/master/img/dymFT_01.jpg "the printer")
 
 
 
