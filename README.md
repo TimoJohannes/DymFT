@@ -6,7 +6,7 @@ Firmware for the super funky dymFT, a needleprinter for dymo Labels. It's made f
 
 ## fonts
 
-As font we are using bitmap fonts. The code is inspired by the adafruitGFX library. Most fonts in use, the so called UNSCII fonts are taken from [this source](http://pelulamu.net/unscii/) and were transcoded to compatible bitmap fonts using the Adafruit font converter. Due to the low resolution of the y-Axis (maximum 10 pixel per column) only few fonts are still readable. 
+As fonts we are using bitmap fonts. The code is inspired by the adafruitGFX library. Most fonts in use, the so called UNSCII fonts are taken from [this source](http://pelulamu.net/unscii/) and were transcoded to compatible bitmap fonts using the Adafruit font converter. Due to the low resolution of the y-Axis (maximum 10 pixel per column) only few fonts remain still readable when convertet. 
 
 
 ## special keys
@@ -47,7 +47,7 @@ As font we are using bitmap fonts. The code is inspired by the adafruitGFX libra
 |11    | Keyboard CLK       |
 |12    | Keyboard DATA      |
 |13    | Status LED         |
-|a14   | Sound              |
+|A14   | Sound              |
 |14    | Head stop          |
 |15    | cut servo enable   | 
 |16    | Display REG SEL    |
