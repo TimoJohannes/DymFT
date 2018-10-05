@@ -150,7 +150,7 @@ void setup() {
 
   feedLabel(1,5);
   analogWriteResolution(8);
-  //startSound();
+  startSound();
 
   homeHead();
 
