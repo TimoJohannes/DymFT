@@ -26,7 +26,7 @@ Firmware for the super funky dymFT, a needleprinter for dymo Labels. It's made f
       
       
 
-![the printer] (https://github.com/TimoJohannes/Dymopixelprinter/blob/master/img/dymFT_01.jpg?raw=true)
+![the printer](https://github.com/TimoJohannes/Dymopixelprinter/blob/master/img/dymFT_01.jpg?raw=true)
 
 
 
