@@ -1,6 +1,8 @@
 # Dymopixelprinter
 Firmware for the super funky dymFT, a needleprinter for dymo Labels. It's made from printer and CD-drive junk, an old PS2 Keyboard and a 16x2 character Display. 
 
+
+
 ## special keys
 | Key			|Function			|
 |------------	|---------------	|
