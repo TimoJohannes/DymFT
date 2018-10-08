@@ -8,6 +8,24 @@ Firmware for the super funky dymFT, a needleprinter for dymo labels. It's made f
 
 As fonts we are using bitmap fonts. The code is inspired by the AdafruitGFX library. Most fonts in use, the so called UNSCII fonts are taken from [this source](http://pelulamu.net/unscii/) and were transcoded to compatible bitmap fonts using the Adafruit font converter. Due to the low resolution of the printers y-Axis (maximum 10 pixel per column) only few fonts remain still readable when convertet. Nevertheless all the UNSCII fonts are looking nice because they were made for low resolution display.
 
+## rough BOM
+
+| qty | part         |
+|-----|--------------|
+| 1   | Teensy 3.2   |
+| 2   | DRV8825 stepepr driver |
+| 1   | CD-Rom Drive with stepper |
+| 1   | stepper from old printer with gear reduction |
+| 1   | servo motor |
+| some| rubber rollers from old printer|
+| 1   | beefy power supply |
+| 1   | pair of scissors | 
+| 1   | PS2 Keyboard |
+| 1   | 16x2 LCD display |
+
+and some screws, metal junk, springs and resistros and stuff.
+
+
 
 ## special keys
 | Key			|Function			|
