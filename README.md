@@ -22,6 +22,7 @@ As fonts we are using bitmap fonts. The code is inspired by the AdafruitGFX libr
 | 1   | pair of scissors | 
 | 1   | PS2 Keyboard |
 | 1   | 16x2 LCD display |
+| 1   | nice 12V solenoid |
 
 and some screws, metal junk, springs and resistros n‘ stuff.
 
