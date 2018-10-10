@@ -27,7 +27,7 @@ GFXfont *gfxFont;       ///< Pointer to special font
 #define LABEL_RETRACTION_AFTER_ADJUSTMENT 210
 #define LABEL_FEED_AFTER_PRINT 2700
 #define LABEL_FEEDRATE 100
-#define HEAD_START_POS 450
+#define HEAD_START_POS 465
 #define LABEL_HEIGHT 960 // ca.
 #define STEPSIZE_Y 120
 #define STEPSIZE_X 27
@@ -36,6 +36,8 @@ GFXfont *gfxFont;       ///< Pointer to special font
 // timing and delays
 #define STAMP_DELAY 78
 
+//other defines
+#define LABEL_DETECT_TH 50
 
 // PINS
 #define HEAD_STEP 8
@@ -47,7 +49,7 @@ GFXfont *gfxFont;       ///< Pointer to special font
 #define LABEL_ENABLE 4
 
 #define HEAD_STOP 14
-#define LABEL_DETECT 2
+#define LABEL_DETECT 23
 
 #define STAMP 3
 
@@ -118,7 +120,7 @@ void setup() {
   labelMotor.setMaxSpeed(1000);
 
   pinMode(HEAD_STOP, INPUT_PULLUP);
-  pinMode(LABEL_DETECT, INPUT_PULLUP);
+  pinMode(LABEL_DETECT, INPUT);
 
   pinMode(LABEL_ENABLE, OUTPUT);
   pinMode(HEAD_ENABLE, OUTPUT);
@@ -303,7 +305,7 @@ bool headStopSwitch() {
 }
 
 bool labelDetected() {
-  return digitalRead(LABEL_DETECT);
+  return analogRead(23) >LABEL_DETECT_TH;
 }
 
 void enableHead(bool e) {
