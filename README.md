@@ -54,7 +54,7 @@ and some screws, metal junk, springs and resistros n‘ stuff.
 |------|--------------------|
 |0     | /                  |
 |1     | /                  |
-|2     | Label detect       |
+|23    | Label detect       |
 |3     | Stamping Solenoid  |
 |4     | Label Enable       |
 |5     | Label Step         |
