@@ -1,5 +1,5 @@
 # Dymopixelprinter
-Firmware for the super funky dymFT, a needleprinter for dymo labels. It's made from printer and CD-drive junk, an old PS2 keyboard and a 16x2 character display. 
+Firmware for the super funky dymFT, a needleprinter for dymo labels (the 9mm embossing variant). It's made from printer and CD-drive junk, an old PS2 keyboard and a 16x2 character display. 
 
 
 ![the printer](https://github.com/TimoJohannes/Dymopixelprinter/blob/master/img/dymFT_01.jpg?raw=true)
@@ -13,18 +13,24 @@ As fonts we are using bitmap fonts. The code is inspired by the AdafruitGFX libr
 | qty | part         |
 |-----|--------------|
 | 1   | Teensy 3.2   |
-| 2   | DRV8825 stepepr driver |
+| 2   | DRV8825 stepper driver |
 | 1   | CD-Rom Drive with stepper |
 | 1   | stepper from old printer with gear reduction |
-| 1   | servo motor |
+| 1   | servo motor (not the tiny ones) |
 | some| rubber rollers from old printer|
 | 1   | beefy power supply |
 | 1   | pair of scissors | 
-| 1   | PS2 Keyboard |
+| 1   | PS2 Keyboard (the ones without USB-Support work easiest, so get one with a grey and not a purple ps2-plug)|
 | 1   | 16x2 LCD display |
 | 1   | nice 12V solenoid |
+| 4   | decorative feet |
+| 1   | tiny speaker and a simple amp for funky sounds |
+| 1   | beefy mosfet for driving the Solenoid (we used an IRF530 (might be overkill)) |
 
-and some screws, metal junk, springs and resistros n‘ stuff.
+
+
+
+and some screws, metal junk, springs and resistors n‘ stuff.
 
 
 
