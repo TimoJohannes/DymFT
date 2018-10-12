@@ -1,3 +1,9 @@
+# The Result
+
+<iframe src="https://player.vimeo.com/video/293954588" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/293954588">DymFT</a> from <a href="https://vimeo.com/user5163128">Timo Johannes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
 # Dymopixelprinter
 Firmware for the super funky dymFT, a needleprinter for dymo labels (the 9mm embossing variant). It's made from printer and CD-drive junk, an old PS2 keyboard and a 16x2 character display. 
 
